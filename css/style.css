@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #dddee086;
+}
+
+nav{
+    height: 6rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.rightLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+}
+.rightLink a {
+    text-decoration: none;
+    color: #818286;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
+
+}
