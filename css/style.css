@@ -240,6 +240,7 @@ text-align: end;
     width: 55%;
     height: auto;
     margin: 2rem auto 0 auto;
+    
     background: url(../img/Refbackgrand.jpg);
     background-position: center;
     background-size: cover;
@@ -315,8 +316,8 @@ fieldset{
 /*------------------------------------------------Footer Section----------------------------------------------------------------*/
 
 footer{
-    height: 200px;
-    margin-top: 3.5rem;
+    height: 250px;
+    margin-top: 8rem;
     outline: 1px solid black;
     display: flex;
     
@@ -325,12 +326,24 @@ footer{
 .almenu{
     width: 33.33%;
     height: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     letter-spacing: .2rem;
+}
+
+.almenu a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #818286;
+    text-shadow: 1px 1px  rgba(0, 0, 0, 0.685);
+}
+
+.almenu a:hover{
+    cursor: pointer;
+    color:#81828650;
 }
 
 .almenu li{
