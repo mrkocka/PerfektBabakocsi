@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
+    font-size: 18px;
 }
 
 body{
@@ -174,20 +175,176 @@ main h1{
 
 /*---------------------------Cleaning Container--------------------------------------------*/
 .Cleaning {
-    height: 500px;
+    height: auto;
 }
 .Cleaning h2{
     font-size: 2.3rem;
-    margin: 0  0  7rem 8rem;
+    margin: 2rem  0  -3rem 8rem;
     color: #818286;
     text-decoration: underline;
     letter-spacing: .5rem;
     
 }
 
+.logo100{
+text-align: end;
+}
+.logo100 img{
+    margin-right: 20rem;
+}
 
 .Cleaninglist{
-    outline: 1px solid black;
+    width: 80%;
+    margin: -5rem auto 0 auto;
+}
+
+.Cleaninglist ul {
+    font-size: 1.4rem;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+.Cleaninglist li{
+    padding: 1rem;
+}
+
+
+/*---------------------------Contact Container--------------------------------------------*/
+
+.contact{
+    height: 800px;
+}
+
+.contact h2{
+    font-size: 2.3rem;
+    color: #818286;
+    letter-spacing: .5rem;
+    text-align: center;
+    margin:5rem 0 3rem 0 ;    
+}
+.contact h3 {
+    text-align: center;
+    color: #818286;
+}
+
+.contact h4{
+    text-align: center;
+    color: #818286;
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+
+.contactForm{
+   /*  outline: 1px solid black; */
+    width: 55%;
+    height: auto;
+    margin: 2rem auto 0 auto;
+    background: url(../img/Refbackgrand.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+}
+
+form{
     width: 80%;
     margin: 0 auto 0 auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+form input{
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: .1rem solid;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+form legend{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+fieldset{
+    margin-top: 1.5rem;
+}
+
+.one{
+    text-align: center;
+}
+.one :last-child{
+    margin-bottom: 1rem;
+}
+
+.two{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.three{
+    text-align: center;
+}
+
+
+.three select{
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+} 
+
+.btn{
+    padding: .5rem;
+    margin-top: 1rem;  
+    margin-bottom: 1rem;
+    background-color:#818286;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color:#81828685;
+}
+
+/*------------------------------------------------Footer Section----------------------------------------------------------------*/
+
+footer{
+    height: 200px;
+    margin-top: 3.5rem;
+    outline: 1px solid black;
+    display: flex;
+    
+}
+
+.almenu{
+    width: 33.33%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: .2rem;
+}
+
+.almenu li{
+    padding: 1rem;
+    
+}
+
+.copy{
+    width: 33.33%;
+    height: 100%;
+    background-color: brown;
+}
+.map{
+    width: 33.33%;
+    height: 100%;
+    background-color: chartreuse;
 }
