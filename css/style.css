@@ -190,14 +190,6 @@ main h1{
     letter-spacing: .5rem;
 }
 
-/* .logo100{
-    text-align: end;
-    outline: 1px solid black;
-    height: auto;
-}
-.logo100 img{
-    margin-right: 20rem;
-} */
 
 .Cleaninglist{
     width: 80%;
@@ -348,6 +340,8 @@ footer{
     /* text-shadow: 1px 1px  rgba(0, 0, 0, 0.685); */
 }
 
+
+
 .almenu a:hover{
     cursor: pointer;
     color: black;
@@ -355,7 +349,7 @@ footer{
 
 .almenu li{
     padding: 1rem;
-    
+    list-style: none;
 }
 
 .copy{
