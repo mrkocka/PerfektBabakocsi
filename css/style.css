@@ -393,3 +393,10 @@ footer{
     text-shadow: 1px 1px  rgba(0, 0, 0, 0.685);
    /*  outline: 1px solid black; */
 }
+
+.googleMap{
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}

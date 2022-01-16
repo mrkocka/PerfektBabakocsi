@@ -1,0 +1,36 @@
+main h1 {
+    font-size: 1.2rem;
+}
+
+.firstText p {
+    font-size: 1rem;
+}
+
+.card {
+    width: 255px;
+}
+
+.card img {
+    width: 255px;
+    height: auto;
+}
+
+.Cleaning h2 {
+    font-size: 1.3rem;
+}
+
+.Cleaninglist li {
+    font-size: 1rem;
+}
+.contact h2 {
+    font-size: 1.3rem;
+}
+
+.contact h3 {
+    font-size: 1rem;
+}
+
+.contact h4 {
+    font-size: 1rem;
+    padding: .2rem;
+}
