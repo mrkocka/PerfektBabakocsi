@@ -1,0 +1,44 @@
+main h1{
+    font-size: 2rem;
+}
+
+.firstText p{
+    font-size: 1.1rem;
+}
+
+.card{
+    margin-top: 20px;
+    width: 200px;
+    height: 267px;
+}
+.card-content{
+    margin: 10px;
+}
+
+.card-image{
+    width: 200px;
+    height: 240px;
+}
+.card a  {
+    font-size: .2rem;
+}
+
+.Cleaninglist ul {
+    font-size: 1.4rem;
+    padding: 0;
+}
+.Cleaninglist li{
+    padding: .5rem;
+}
+
+.contact h2{
+    font-size: 1.5rem;
+}
+
+.contactForm{
+    width: 90%;
+}
+
+form{
+    width: 90%;
+}

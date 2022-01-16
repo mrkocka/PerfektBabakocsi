@@ -57,15 +57,20 @@ nav{
     background-color:#818286;
     color: white;
     text-shadow: 1px 1px 1px black;
-    font-size: 1.9rem;
-    margin-left: 2.5rem;
+    /* font-size: 1.9rem; */
+    margin-left: 2rem;
     padding: 1.2rem;
-    height: 60px;
+    height: 70px;
     border-radius: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+#menuButton .fa-bars{
+    font-size: 2rem;
+}
+
 #menuButton:hover{
     background-color:#81828685;
     cursor: pointer;
@@ -147,8 +152,8 @@ main h1{
 
 .card{
     position: relative;
-    max-width: 340px;
-    max-height: 500px;
+    width: 340px;
+    height: 500px;
     height: auto;
     margin: 15px;
     margin-top: 120px;
@@ -179,23 +184,24 @@ main h1{
 }
 .Cleaning h2{
     font-size: 2.3rem;
-    margin: 2rem  0  -3rem 8rem;
+    margin: 2rem  2rem  0 8rem;
     color: #818286;
     text-decoration: underline;
     letter-spacing: .5rem;
-    
 }
 
-.logo100{
-text-align: end;
+/* .logo100{
+    text-align: end;
+    outline: 1px solid black;
+    height: auto;
 }
 .logo100 img{
     margin-right: 20rem;
-}
+} */
 
 .Cleaninglist{
     width: 80%;
-    margin: -5rem auto 0 auto;
+    margin: 0rem auto 0 auto;
 }
 
 .Cleaninglist ul {
@@ -240,7 +246,6 @@ text-align: end;
     width: 55%;
     height: auto;
     margin: 2rem auto 0 auto;
-    
     background: url(../img/Refbackgrand.jpg);
     background-position: center;
     background-size: cover;
@@ -316,15 +321,16 @@ fieldset{
 /*------------------------------------------------Footer Section----------------------------------------------------------------*/
 
 footer{
-    height: 250px;
+    height: 280px;
     margin-top: 8rem;
-    outline: 1px solid black;
+  /*   outline: 1px solid black; */
     display: flex;
-    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .almenu{
-    width: 33.33%;
+    width: 38.33%;
     height: 100%;
     /* background-color: blueviolet; */
     display: flex;
@@ -332,18 +338,19 @@ footer{
     text-align: center;
     justify-content: center;
     letter-spacing: .2rem;
+   /*  outline: 1px solid black; */
 }
 
 .almenu a {
     text-decoration: none;
     font-weight: 500;
     color: #818286;
-    text-shadow: 1px 1px  rgba(0, 0, 0, 0.685);
+    /* text-shadow: 1px 1px  rgba(0, 0, 0, 0.685); */
 }
 
 .almenu a:hover{
     cursor: pointer;
-    color:#81828650;
+    color: black;
 }
 
 .almenu li{
@@ -352,12 +359,37 @@ footer{
 }
 
 .copy{
-    width: 33.33%;
+    width: 23.33%;
     height: 100%;
-    background-color: brown;
+    /* background-color: brown; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #818286;
+    /* outline: 1px solid black; */
+}
+
+.copy img{
+
+    margin-bottom: .5rem;
+}
+.copy p{
+    margin-bottom: .5rem;
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+    color: #818286;
 }
 .map{
-    width: 33.33%;
+    width: 38.33%;
     height: 100%;
-    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #818286;
+    text-shadow: 1px 1px  rgba(0, 0, 0, 0.685);
+   /*  outline: 1px solid black; */
 }
