@@ -76,6 +76,54 @@ nav{
     cursor: pointer;
 }
 
+
+#navList{
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    transform: translateX(-10rem); 
+    transition: transform 350ms ease-in-out;
+    padding: 3.5rem 1rem 3.5rem 1rem;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.menu-activ-JS{
+    transform: translateX(0); 
+}
+
+#navList .link{
+   /*  outline: 1px solid whitesmoke; */
+    width: 110%;
+}
+
+#navList a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navList ul {
+    list-style: none;
+}
+
+#navList li{
+    padding: 1rem 0 1rem 0 ;
+}
+
+#navList i{
+    text-align: end;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    /* outline: 1px solid whitesmoke; */
+    font-size: 1.5rem;
+    cursor:pointer;
+} 
+
+
 /*----------------------------Banner--------------------------------------------*/
 .banner{
     /* outline: 1px solid black; */
