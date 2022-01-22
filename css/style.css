@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
 }
 
 body{
     background-color: #dddee086;
+    
 }
-
 
 /*------------------------------------------------Header Section----------------------------------------------------------------*/
 
@@ -31,12 +31,14 @@ nav{
     justify-content: end;
     text-align: end;
     margin-right: 1.5rem;
-    font-size: 1.2rem;
+    
 }
 .rightLink a {
     text-decoration: none;
     color: #818286;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .rightLink a:hover{
@@ -76,33 +78,36 @@ nav{
     cursor: pointer;
 }
 
-
+/*----------------------------Nav List--------------------------------------------*/
 #navList{
     position: absolute;
     top: 0;
-    width: 10rem;
+    width: 24rem;
     height: 100%;
-    display: flex;
+    display: none; /*Ha végeztél ez legyen none*/
     flex-direction: column;
-    background-color: blue;
-    transform: translateX(-10rem); 
-    transition: transform 350ms ease-in-out;
+    text-align: center;
+    background-color:#818286;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 3.5rem 1rem 3.5rem 1rem;
     color: whitesmoke;
     font-weight: 500;
-}
-.menu-activ-JS{
-    transform: translateX(0); 
+    
 }
 
+
 #navList .link{
-   /*  outline: 1px solid whitesmoke; */
+   /* outline: 1px solid whitesmoke;  */
     width: 110%;
+    margin-bottom: 1.8rem;
 }
+
+
 
 #navList a {
     color: whitesmoke;
     text-decoration: none;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
 }
 
 #navList ul {
@@ -110,19 +115,74 @@ nav{
 }
 
 #navList li{
-    padding: 1rem 0 1rem 0 ;
+    padding: .8rem 0 .8rem 0 ;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
 }
 
+#navList li:hover{
+    color: rgba(245, 245, 245, 0.603);
+    cursor: pointer;
+}
+
+#navList .XButtonBox{
+    /* outline: 1px solid whitesmoke; */
+    margin-top: -2rem;
+    text-align: end;
+}
+
+    
 #navList i{
     text-align: end;
-    margin-top: -2rem;
-    margin-bottom: 3rem;
-    width: 100%;
-    /* outline: 1px solid whitesmoke; */
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
     cursor:pointer;
 } 
 
+#navList i:hover{
+    color: rgba(245, 245, 245, 0.603);
+}
+
+#navList .tellemail{
+    /* outline: 1px solid whitesmoke;  */
+    width: 110%;
+    /* padding: 0 0 1rem 0; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+#navList .tellemail a {
+    font-size: .9rem;
+    padding: 0 1.3rem 0 0 ;
+    font-weight: 700;
+}
+
+#navList .tellemail a:hover{
+    color: rgba(245, 245, 245, 0.603);
+    cursor: pointer;
+}
+
+#navList .socIcon{
+    /* outline: 1px solid whitesmoke;  */
+    width: 110%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    
+}
+#navList .socIcon .fab{
+        color: whitesmoke;
+        font-size: 2.6rem;
+        padding-top: 2.4rem;
+}
+
+#navList .socIcon .fab:hover{
+    color: rgba(245, 245, 245, 0.603);
+    cursor: pointer;
+}
 
 /*----------------------------Banner--------------------------------------------*/
 .banner{
@@ -141,7 +201,7 @@ main h1{
     margin: 2rem 0 2rem 0;
     font-size: 2.5rem;
     letter-spacing: .3rem;
-    font-weight: 500;
+    font-weight: 700;
     color: #818286;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
 }
@@ -159,24 +219,30 @@ main h1{
     justify-content: space-evenly;
     text-align: center;
     height: auto;
+ /*    outline: 1px solid black; */
 }
 
 .firstText p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .text1{
     margin-bottom: 3rem;
+    color: rgba(0, 0, 0, 0.555);
 }
 
 .text2{
     margin-bottom: 3rem;
+    color: #818286;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
+    
 } 
 
 .text3{
     margin-bottom: 3rem;
+    color: rgba(0, 0, 0, 0.555);
 } 
 
 /*---------------------------Img Container--------------------------------------------*/
@@ -245,13 +311,14 @@ main h1{
 }
 
 .Cleaninglist ul {
-    font-size: 1.4rem;
     padding: 2rem;
-    font-weight: 500;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.555);
 }
 
 .Cleaninglist li{
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -271,12 +338,13 @@ main h1{
 .contact h3 {
     text-align: center;
     color: #818286;
+    font-size: 1.5rem;
 }
 
 .contact h4{
     text-align: center;
     color: #818286;
-    font-size: .8rem;
+    font-size: 1.2rem;
     margin-top: .5rem;
 }
 
@@ -346,6 +414,8 @@ fieldset{
 } 
 
 .btn{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
     padding: .5rem;
     margin-top: 1rem;  
     margin-bottom: 1rem;
@@ -362,7 +432,6 @@ fieldset{
 
 footer{
     height: 280px;
-    margin-top: 8rem;
   /*   outline: 1px solid black; */
     display: flex;
     background-color: white;
@@ -383,7 +452,7 @@ footer{
 
 .almenu a {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     color: #818286;
     /* text-shadow: 1px 1px  rgba(0, 0, 0, 0.685); */
 }
@@ -420,7 +489,7 @@ footer{
 .copy p{
     margin-bottom: .5rem;
     font-size: .7rem;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: .5rem;
     color: #818286;
 }
@@ -432,6 +501,7 @@ footer{
     justify-content: space-evenly;
     text-align: center;
     color: #818286;
+    font-weight: 700;
     text-shadow: 1px 1px  rgba(0, 0, 0, 0.685);
    /*  outline: 1px solid black; */
 }
