@@ -3,7 +3,7 @@ main h1{
 }
 
 .firstText p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .card{
@@ -26,9 +26,11 @@ main h1{
 .Cleaninglist ul {
     font-size: 1.4rem;
     padding: 0;
+    width: 110%;
+    padding-top: .3rem;
 }
 .Cleaninglist li{
-    padding: .5rem;
+    padding: .5rem 0 .5rem 0;
 }
 
 .contact h2{
@@ -41,4 +43,5 @@ main h1{
 
 form{
     width: 90%;
+    
 }

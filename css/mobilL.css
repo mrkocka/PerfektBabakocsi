@@ -20,10 +20,34 @@ nav{
     font-size: 1.2rem;
     margin-right: .2rem;
 }
+
+#navList{
+    width: 23rem;
+    background-color:#818286e3;
+}
+
+
+#navList li{
+    letter-spacing: 0rem;
+    
+}
+
+#navList .tellemail a {
+    font-size: 1.1rem;
+}
+
+.banner img{
+    width: 400px;
+    height: auto;
+}
+
+
 main h1{
-  
     margin: 2rem 0 2rem 0;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+}
+.firstText{
+    padding:0 .2rem 0 .2rem;
 }
 
 .firstText p{
@@ -51,13 +75,14 @@ main h1{
 }
 
 .Cleaning h2{
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     letter-spacing: .1rem;
     margin-bottom: .8rem;
+    margin-left: 4rem;
 
 }
 .Cleaninglist li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 

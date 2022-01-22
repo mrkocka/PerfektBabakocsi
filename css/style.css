@@ -80,7 +80,7 @@ nav{
 
 /*----------------------------Nav List--------------------------------------------*/
 #navList{
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 24rem;
     height: 100%;
@@ -92,7 +92,7 @@ nav{
     padding: 3.5rem 1rem 3.5rem 1rem;
     color: whitesmoke;
     font-weight: 500;
-    
+    z-index: 1;
 }
 
 
@@ -146,9 +146,7 @@ nav{
 }
 
 #navList .tellemail{
-    /* outline: 1px solid whitesmoke;  */
     width: 110%;
-    /* padding: 0 0 1rem 0; */
     display: flex;
     justify-content: center;
     text-align: center;
