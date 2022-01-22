@@ -168,7 +168,7 @@ nav{
     width: 110%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 3rem;
+    margin-top: .5rem;
     
 }
 #navList .socIcon .fab{
