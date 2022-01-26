@@ -81,8 +81,10 @@ nav{
 /*----------------------------Nav List--------------------------------------------*/
 #navList{
     position: fixed;
+    overflow: auto;
+    overflow-x: hidden;
     top: 0;
-    width: 24rem;
+    width: 25rem;
     height: 100%;
     display: none; /*Ha végeztél ez legyen none*/
     flex-direction: column;
