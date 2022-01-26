@@ -31,8 +31,18 @@
     font-size: 1.2rem;
 }
 
+.logo100{
+    margin: 0 auto 0 auto; 
+    
+}
+.logo100 img {
+    width: 200px;
+    height: auto;   
+}
+
+
 .Cleaning h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .Cleaninglist ul {
