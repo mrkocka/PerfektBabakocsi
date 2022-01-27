@@ -10,8 +10,43 @@ body{
     background-color: #dddee086;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /*------------------------------------------------Header Section----------------------------------------------------------------*/
+
+/*---------Progress Arrow Button-----------------------------------------------*/
+
+#progress{
+    background-color: #81828681; 
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+    cursor: pointer;
+    z-index: 1;
+}
+
+ #progress .fas{
+    font-size: 2.5rem;
+    color: #818286;
+} 
+#progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #EDEDEE;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+   
+}
 
 
 /*----------------------------Nav--------------------------------------------*/

@@ -1,16 +1,25 @@
 #navList{
   
-    width: 17rem;
+    width: 17.7rem;
 }
 
 
+#navList ul{
+    margin-left: -.6rem;
+}
+
 #navList li{
-    padding: .8rem 0 .8rem -1rem ;
+    padding: .8rem 0 .8rem -1.rem ;
     
     font-size: 1rem;
     font-weight: 700;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
 }
+
+#navList .tellemail a {
+    font-size: .84rem;
+}
+
 
 main h1 {
     font-size: 1.2rem;
