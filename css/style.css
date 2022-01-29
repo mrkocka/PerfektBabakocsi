@@ -597,10 +597,17 @@ footer{
     color: #818286;
     font-size: 1.2rem;
 }
+
+.price{
+    font-size: 1.8rem;
+    text-decoration: underline;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
 .dataArea{
     /* background-color: rgba(128, 255, 0, 0.219); */
     display: flex;
-    height: 490px;
+    height: auto        ;
     margin: 0 4rem 2rem 4rem;
     text-align: center;
     justify-content: space-evenly;
@@ -622,9 +629,25 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
 }
 
-.datAtext button{
+.datAtext p{
+    padding: 1rem;
+} 
+
+.datAtext h4{
+    margin-top: 1rem;
+}
+
+.dwBox{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.datAtext .dw-btn{
     width: 6rem;
     margin: 1rem auto 0 auto;
     border-radius: 10px;
@@ -632,8 +655,19 @@ footer{
     background-color:#818286 ;
     color: white;
     font-size: 1.3rem;
-
 }
+.datAtext .dw-btn {
+    text-decoration: none;
+}
+
+.datAtext .dw-btn:hover{
+    cursor: pointer;
+    background-color:#EDEDEE;
+    color: #818286;
+    outline: solid 1px;
+    border-color:#818286;
+}
+
 
 .gallery .mini{
     width: 10rem;
@@ -643,7 +677,7 @@ footer{
 }
 
 .mini:hover{
-    border: solid 6px #818286 ;
+    outline: solid 6px #818286 ;
     cursor: pointer;
     
 }

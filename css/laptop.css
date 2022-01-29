@@ -37,3 +37,23 @@ footer{
 .map{
     width: 100%;
 }
+
+
+/*--------------------------------------------------------------Baby Carriage---------------------------------------------------------*/
+
+
+.dataArea{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 4rem 2rem 4rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.dataArea h1{
+    text-align: start;
+}
+
+.datAtext p, h3, h4 { 
+    text-align: start;
+}
