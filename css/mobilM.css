@@ -93,3 +93,11 @@ fieldset {
 .copy p {
     letter-spacing: .3rem;
 }
+
+
+
+
+main h1 {
+    margin: 2rem 0 2rem -3rem;
+    font-size: 1.6rem;
+}

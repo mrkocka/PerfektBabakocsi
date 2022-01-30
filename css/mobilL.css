@@ -97,3 +97,43 @@ main h1{
 form{
     padding-top: 1rem;
 }
+
+
+
+main h1 {
+    margin: 2rem 0 2rem -3rem;
+    font-size: 2rem;
+}
+
+
+.linkList a {
+    padding: 0 1rem 0 0;
+
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+}
+
+
+
+.linkList a {
+    padding: 0 1rem 0 1rem;
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+}
+
+
+
+.gallery .normal{
+    width: 10rem;
+    
+}
+
+.gallery .mini{
+    width: 7rem;
+    margin: 0 1rem 1rem 0;
+}
+
+.datAtext p {
+    margin-left: -1rem;
+   padding: 1rem 0 1rem 0;
+}

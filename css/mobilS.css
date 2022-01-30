@@ -57,3 +57,30 @@ main h1 {
     font-size: 1rem;
     padding: .2rem;
 }
+
+
+.linkList:first-child {
+    margin-left: 0rem;
+}
+
+.linkList a {
+    font-size: 1rem;
+}
+
+.gallery .mini {
+    width: 5rem;
+    
+}
+
+.gallery .normal {
+    width: 8rem;
+}
+
+
+main h1 {
+    font-size: 1.1rem;
+}
+
+.datAtext p {
+    margin-left: -4rem;
+}
