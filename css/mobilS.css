@@ -22,7 +22,7 @@
 
 
 main h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .firstText p {
@@ -59,6 +59,11 @@ main h1 {
 }
 
 
+
+
+
+/*--------------------------------------------------------------Baby Carriage---------------------------------------------------------*/    
+
 .linkList:first-child {
     margin-left: 0rem;
 }
@@ -69,18 +74,32 @@ main h1 {
 
 .gallery .mini {
     width: 5rem;
-    
+    margin: 0 0.5rem 0.5rem 0;
 }
 
 .gallery .normal {
-    width: 8rem;
+    width: 10rem;
 }
 
 
-main h1 {
-    font-size: 1.1rem;
+.dataArea h1 {
+    font-size: 1.6rem;
+    margin-left: -4rem;
+}
+
+.datAtext h3 {
+    font-size: 1.4rem;
 }
 
 .datAtext p {
     margin-left: -4rem;
+}
+
+.datAtext p {
+   /*  margin-left: -4rem; */
+    font-size: 1.3rem;
+}
+
+.dwBox span {
+    font-size: 1.3rem;
 }
