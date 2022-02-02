@@ -648,7 +648,18 @@ main{
 } 
 .datAtext h1{
    letter-spacing: .1rem;
+   margin-bottom: 0rem;
 }
+.datAtext h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #818286;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 69%);
+}
+
+
+
 
 .datAtext h4{
     margin-top: 1rem;

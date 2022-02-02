@@ -131,6 +131,16 @@ fieldset {
     margin-left: 0;
 }
 
+.datAtext h2{
+    text-align: start;
+    font-size: 1.4rem;
+    margin-left: -4rem;
+    margin-bottom: 1rem;
+    color: #818286;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 69%);
+}
+
+
 
 .gallery .normal {
     width: 11rem;
