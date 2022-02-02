@@ -114,17 +114,17 @@ fieldset {
 
 /*--------------------------------------------------------------Baby Carriage---------------------------------------------------------*/
 
-.linkList {
+/* .linkList {
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .linkList a {
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .linkList:first-child {

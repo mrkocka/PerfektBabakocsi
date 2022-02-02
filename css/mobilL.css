@@ -117,6 +117,18 @@ form{
 
 /*--------------------------------------------------------------Baby Carriage---------------------------------------------------------*/
 
+.linkList {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linkList:first-child {
+     margin-left: 0; 
+}
+
+
 .datAtext{
     width: auto;
 }
