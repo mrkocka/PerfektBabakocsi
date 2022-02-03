@@ -103,3 +103,29 @@ main h1 {
 .dwBox span {
     font-size: 1.3rem;
 }
+
+/*---------------------------------Sütik (cookie) kezelése-----------------------------------------------*/
+.cookiMain h1{
+    font-size: 1rem;
+}
+
+
+
+.cookieText{
+    width: 97%;
+}
+
+.cookieText p{
+    font-size: 1rem;
+    text-align:left;
+    padding: 1rem;
+}
+
+.cookieText li{
+    font-size: 1rem;
+}
+
+.cookieText a{
+    font-size: 1rem;
+    color: black;
+}

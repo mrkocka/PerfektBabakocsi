@@ -98,3 +98,11 @@ footer{
 .dwBox span{
     font-size: 1.3rem;
 }
+
+
+/*---------------------------------Sütik (cookie) kezelése-----------------------------------------------*/
+
+.cookieText{
+    width: 85%;
+    /* outline: 1px solid black;   */
+}
