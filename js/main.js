@@ -54,7 +54,7 @@ window.addEventListener("load", function(){
         },
         2000
     )
-});
+}); 
 
 document.querySelector("#close").addEventListener 
 ("click", function(){
