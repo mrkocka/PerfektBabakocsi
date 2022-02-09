@@ -825,3 +825,36 @@ main{
     font-size: 1.2rem ;
     padding-top: 1rem;
 }
+
+
+
+/*-------------Table-------------------------*/
+
+table{
+    margin: 1rem auto 1rem auto;
+}
+
+table.customTable {
+    width: 50%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 5px;
+  }
+
+  table.customTable td{
+      text-align: center;
+  }
+  
+  table.customTable thead {
+    background-color: #F0F0F0;
+  }
