@@ -725,7 +725,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
-    padding: .5rem 2rem 2rem 2rem ;
+    height:auto;
+   /*  padding: .5rem 2rem 2rem 2rem ; */
     /* outline: 1px solid black; */
     z-index: 1;
     position: sticky;
@@ -744,11 +745,12 @@ main{
     font-size: 1.2rem;
 }
 .popup p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
-    padding-top: .5rem;
+    /* padding-top: .5rem; */
     letter-spacing: .1rem;
     text-align: center;
+    padding: 0 .5rem 1rem .5rem;
 }
 
 .popup div{
@@ -758,8 +760,15 @@ main{
 }
 
 .popup div .fas{
-    font-size: 1.5rem;
+    font-size: 1rem;
     cursor: pointer;
+    padding: .5rem .8rem 0 0 ;
+}
+
+.popup a{
+    color: #818286;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
 }
 
 
