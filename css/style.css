@@ -143,8 +143,9 @@ nav{
 
 
 
-#navList a {
+#navList a  {
     color: whitesmoke;
+    font-size: 1.3rem;
     text-decoration: none;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
 }
@@ -161,7 +162,7 @@ nav{
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.685);
 }
 
-#navList li:hover{
+#navList li a:hover{
     color: rgba(245, 245, 245, 0.603);
     cursor: pointer;
 }
